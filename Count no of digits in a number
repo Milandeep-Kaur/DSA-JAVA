@@ -1,0 +1,16 @@
+public class Main
+{
+	public static void main(String[] args) {
+		
+		int number=9559147;
+		int rem;
+		int count=0;
+		while(number!=0)
+		{
+		    rem=number%10;
+		    count++;
+		    number=number/10;
+		}
+		System.out.println("Number of digits in no.="+count);
+	}
+}
